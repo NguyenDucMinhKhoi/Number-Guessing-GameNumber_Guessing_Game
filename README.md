@@ -36,17 +36,24 @@ node number-guessing-game.js
 3. Nhập số bạn đoán và nhận gợi ý:
    - Nếu số của bạn lớn hơn số cần đoán, trò chơi sẽ báo "The number is less than X"
    - Nếu số của bạn nhỏ hơn số cần đoán, trò chơi sẽ báo "The number is greater than X"
-   - Nếu đoán đúng, bạn sẽ thấy thông báo chúc mừng
+   - Nếu đoán đúng, bạn sẽ thấy thông báo chúc mừng kèm theo thời gian đã dùng
+   - Gõ "hint" để nhận gợi ý về khoảng cách giữa số bạn đoán và số cần tìm
 
-4. Sau khi kết thúc mỗi vòng, bạn có thể chọn chơi lại hoặc thoát
+4. Sau khi kết thúc mỗi vòng:
+   - Bạn sẽ thấy bảng điểm cao cho mỗi mức độ khó
+   - Bạn có thể chọn chơi lại hoặc thoát
 
 ## Tính Năng
 
 - Ba mức độ khó khác nhau
 - Gợi ý sau mỗi lần đoán
+- Hệ thống gợi ý thông minh (gõ "hint")
+- Đo thời gian chơi
+- Lưu và hiển thị điểm cao cho mỗi mức độ khó
 - Kiểm tra tính hợp lệ của đầu vào
 - Thống kê số lần đoán
 - Tùy chọn chơi lại
 
 ## Tác Giả
+
 [https://roadmap.sh/projects/number-guessing-game](https://roadmap.sh/projects/number-guessing-game)
